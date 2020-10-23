@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from "react"
+import React, { createContext, useState } from "react"
 
 export const GithubContext = createContext()
 
@@ -10,8 +10,8 @@ export const GithubState = ({ children }) => {
   const [search, setSearch] = useState("")
   const [error, setError] = useState("")
 
-  const getSearch = () => {
-    error.preventdefault()
+  const getSearch = e => {
+    e.preventDefault()
     getData()
     setSearch("")
   }
