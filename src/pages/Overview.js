@@ -1,12 +1,13 @@
 import React, { useContext } from "react"
 import { GithubContext } from "../context/GithubContext"
+import "./styles.css"
 
 const Overview = () => {
   const { overview } = useContext(GithubContext)
   let id = 0
 
   return (
-    <div className="overviewContainer">
+    <div className="overview-container">
       {overview &&
         overview.map((item, index) => (
           <a key={index} href={item.html_url} target="_blank" rel="noopener noreferrer">

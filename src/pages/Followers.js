@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import { GithubContext } from "../context/GithubContext"
+import "./styles.css"
 
 const Followers = () => {
   const { followers } = useContext(GithubContext)
@@ -8,7 +9,7 @@ const Followers = () => {
     <>
       {followers &&
         followers.map((follow, index) => (
-          <a key={index} href={follow.html_url} target="_blank" rel="noopener noreferrer" className="followersContainer">
+          <a key={index} href={follow.html_url} target="_blank" rel="noopener noreferrer" className="followers-container">
             <div className="followers">
               <img src={follow.avatar_url} alt="follower" />
               <p>{follow.login}</p>

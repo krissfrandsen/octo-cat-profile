@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import { GithubContext } from "../context/GithubContext"
+import "./styles.css"
 
 const Repos = () => {
   const { repos } = useContext(GithubContext)
@@ -9,10 +10,10 @@ const Repos = () => {
       {" "}
       {repos &&
         repos.map((repo, index) => (
-          <a key={index} href={repo.html_url} target="_blank" rel="noopener noreferrer" className="reposWrap">
+          <a key={index} href={repo.html_url} target="_blank" rel="noopener noreferrer" className="repos-wrap">
             <div className="repos">
               {repo.name && <p>{repo.name}</p>}
-              <div className="repoInfo">
+              <div className="repos-info">
                 {repo.language && (
                   <p>
                     <span></span>

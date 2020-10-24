@@ -67,110 +67,25 @@ form input::placeholder {
   color: orange;
 }
 
-/* Followers Styles */
-
-.followersContainer {
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-}
-
-.followersContainer .followers {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-}
-
-.followersContainer .followers img {
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin-right: 34px;
-  border-radius: 4px;
-}
-
-.followersContainer .followers p {
-  padding: 6px 0 0 0;
-  color: #0366d6;
-}
-
-/* Overview Styles */
-
-.overviewContainer {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 20px 0 0 0;
-}
-
-.overviewContainer a {
-  color: #0366d6;
-  text-decoration: none;
-  height: 120px;
-  width: 100%;
-  max-width: 48%;
-  margin-bottom: 20px;
-}
-
-.overviewContainer a .overview {
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  border: 1px solid #eee;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.overviewContainer a .overview.overview-7,
-.overviewContainer a .overview.overview-8 {
-  margin-bottom: 0;
-}
-
-.overviewContainer a .overview h2 {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.overviewContainer a .overview p {
-  display: flex;
-  align-items: center;
-}
-
-.overviewContainer a .overview p span {
-  display: block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: yellow;
-  color: yellow;
-  margin-right: 8px;
-}
-
 /* Repos Container Styles */
 
-.reposContainer {
+.repos-container {
   width: 100%;
   overflow: auto;
   height: 680px;
   max-height: 680px;
 }
 
-.reposContainer::-webkit-scrollbar {
+.repos-container::-webkit-scrollbar {
   width: 1em;
 }
 
-.reposContainer::-webkit-scrollbar-track {
+.repos-container::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px #142b44;
   border-radius: 50px;
 }
 
-.reposContainer::-webkit-scrollbar-thumb {
+.repos-container::-webkit-scrollbar-thumb {
   background: #3e556f;
   outline: 1px solid slategrey;
   border-radius: 50px;
@@ -194,50 +109,6 @@ form input::placeholder {
 .reposNav a.active {
   border-bottom: 2px solid orange;
   color: #0366d6;
-}
-
-/* Repos Styles */
-
-.reposWrap {
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  padding: 10px 0;
-}
-
-.reposWrap:not(:last-of-type) {
-  border-bottom: 1px solid #e1e4e8;
-}
-
-.reposWrap .repos {
-  width: 100%;
-  padding: 20px 0;
-}
-
-.reposWrap .repos > p {
-  color: #0366d6;
-}
-
-.reposWrap .repos .repoInfo {
-  display: flex;
-  padding: 16px 0 0 0;
-}
-
-.reposWrap .repos .repoInfo p {
-  color: #586069;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-}
-
-.reposWrap .repos .repoInfo p span {
-  display: block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: yellow;
-  color: yellow;
-  margin-right: 8px;
 }
 
 /* User Styles */
