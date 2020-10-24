@@ -2,7 +2,7 @@ import React, { useContext } from "react"
 import { GithubContext } from "../context/GithubContext"
 import Container from "./Container"
 import Nav from "./Nav"
-import User from "./User"
+import { User } from "../pages"
 import ReposNav from "./ReposNav"
 import ReposContainer from "./ReposContainer"
 

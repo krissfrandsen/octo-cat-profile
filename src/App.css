@@ -22,18 +22,12 @@
   flex-direction: column;
 }
 
-.hero .container:not(:first-child) {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.hero .container:not(:first-child) .wrapper {
+.hero-wrapper {
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
 }
 
-.hero .noUser {
+.hero-noUser {
   position: absolute;
   top: 100px;
   color: red;
@@ -109,54 +103,6 @@ form input::placeholder {
 .reposNav a.active {
   border-bottom: 2px solid orange;
   color: #0366d6;
-}
-
-/* User Styles */
-
-.user {
-  width: 100%;
-  max-width: 300px;
-}
-
-.user .userContainer .imgContainer img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.user .userContainer .userRow {
-  overflow: hidden;
-}
-
-.user .userContainer .userRow .userInfo {
-  padding: 14px 0;
-}
-
-.user .userContainer .userRow .userDesc p {
-  margin: 20px 0;
-  word-wrap: break-word;
-}
-
-.user .userContainer .userRow .userLinks {
-  padding: 14px 0;
-}
-
-.user .userContainer .userRow .userLinks i {
-  margin-right: 14px;
-  color: #0366d6;
-}
-
-.user .userContainer .userRow .userLinks i a {
-  text-decoration: none;
-  display: inline-block;
-  color: #0366d6;
-  padding: 6px 0 0 0;
-  transition: color 400ms ease-in-out;
-  word-wrap: break-word;
-}
-
-.user .userContainer .userRow .userLinks i a:hover {
-  color: #0a4a92;
 }
 
 /* Media Queries */

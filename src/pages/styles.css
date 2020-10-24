@@ -126,3 +126,58 @@
   padding: 6px 0 0 0;
   color: #0366d6;
 }
+
+/* User Styles */
+
+.user {
+  max-width: 1200px;
+  height: 700px;
+  display: flex;
+  background-color: pink;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.imgContainer img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 0.5rem solid blue;
+  border-radius: 100%;
+}
+
+.user .userContainer .userRow {
+  overflow: hidden;
+}
+
+.user .userContainer .userRow .userInfo {
+  padding: 14px 0;
+}
+
+.user .userContainer .userRow .userDesc p {
+  margin: 20px 0;
+  word-wrap: break-word;
+}
+
+.user .userContainer .userRow .userLinks {
+  padding: 14px 0;
+}
+
+.user .userContainer .userRow .userLinks i {
+  margin-right: 14px;
+  color: #0366d6;
+}
+
+.user .userContainer .userRow .userLinks i a {
+  text-decoration: none;
+  display: inline-block;
+  color: #0366d6;
+  padding: 6px 0 0 0;
+  transition: color 400ms ease-in-out;
+  word-wrap: break-word;
+}
+
+.user .userContainer .userRow .userLinks i a:hover {
+  color: #0a4a92;
+}
