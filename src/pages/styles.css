@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 /* Overview Styles */
 
 .overview-container {
@@ -131,53 +135,56 @@
 
 .user {
   max-width: 1200px;
-  height: 700px;
   display: flex;
-  background-color: pink;
   text-align: center;
   justify-content: center;
   padding-top: 20px;
 }
 
-.imgContainer img {
+.user h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.user h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.user h2 a {
+  color: #0366d6;
+}
+.user h2 a:hover {
+  text-decoration: underline;
+}
+
+.user-container-img img {
   width: 150px;
   height: 150px;
   margin: 0 auto;
-  border: 0.5rem solid blue;
+  border: 0.5rem solid #0366d6;
   border-radius: 100%;
 }
 
-.user .userContainer .userRow {
-  overflow: hidden;
+.user-container-info {
+  display: flex;
 }
 
-.user .userContainer .userRow .userInfo {
-  padding: 14px 0;
+.info__item {
+  margin: 0 1rem 0.5rem;
 }
 
-.user .userContainer .userRow .userDesc p {
-  margin: 20px 0;
-  word-wrap: break-word;
-}
-
-.user .userContainer .userRow .userLinks {
-  padding: 14px 0;
-}
-
-.user .userContainer .userRow .userLinks i {
+.user-container-info i {
   margin-right: 14px;
-  color: #0366d6;
-}
-
-.user .userContainer .userRow .userLinks i a {
-  text-decoration: none;
-  display: inline-block;
-  color: #0366d6;
-  padding: 6px 0 0 0;
-  transition: color 400ms ease-in-out;
-  word-wrap: break-word;
-}
-
-.user .userContainer .userRow .userLinks i a:hover {
   color: #0a4a92;
+}
+
+.user-container-info a {
+  text-decoration: none;
+  color: black;
+}
+
+.user-container-info a:hover {
+  color: #0a4a92;
+  text-decoration: underline;
 }

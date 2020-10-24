@@ -7,11 +7,11 @@ const User = () => {
 
   return (
     <div className="user">
-      <div className="userContainer">
-        <div className="imgContainer">
+      <div className="user-container">
+        <div className="user-container-img">
           <img src={user.avatar_url} alt="user" />
         </div>
-        <div className="userInfo">
+        <span>
           {user.name && <h1>{user.name}</h1>}
           {user.login && (
             <h2>
@@ -20,8 +20,8 @@ const User = () => {
               </a>
             </h2>
           )}
-        </div>
-        <div className="info">
+        </span>
+        <div className="user-container-info">
           {user.company && (
             <span className="info__item">
               <p>
@@ -30,20 +30,20 @@ const User = () => {
               </p>
             </span>
           )}
-          <div className="userLinks">
-            {user.location && (
+          {user.location && (
+            <span className="info__item">
               <p>
                 <i className="fas fa-map-marker-alt fa-sm"> </i>
                 {user.location}
               </p>
-            )}
-            {user.blog && (
-              <a href={`https://${user.blog}`} target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-link fa-sm"></i>
-                {user.blog}
-              </a>
-            )}
-          </div>
+            </span>
+          )}
+          {user.blog && (
+            <a href={`https://${user.blog}`} target="_blank" rel="noopener noreferrer">
+              <i className="fas fa-link fa-sm"></i>
+              {user.blog}
+            </a>
+          )}
         </div>
       </div>
     </div>

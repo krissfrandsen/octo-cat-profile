@@ -16,13 +16,13 @@ const Hero = () => {
         {user ? (
           <>
             <User />
-            <div className="wrapper">
+            <div className="hero-wrapper">
               <ReposNav />
               <ReposContainer />
             </div>
           </>
         ) : (
-          <p className="noUser">{error}</p>
+          <p className="hero-noUser">{error}</p>
         )}
       </Container>
     </section>
