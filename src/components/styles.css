@@ -4,9 +4,7 @@
   width: 800px;
   height: 680px;
   max-height: 680px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
 
 .repos-container::-webkit-scrollbar {
@@ -32,7 +30,7 @@
   justify-content: center;
   align-items: center;
   color: #24292e;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .repos-nav-item {
