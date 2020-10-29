@@ -5,6 +5,7 @@ import Nav from "./Nav"
 import { User } from "../pages"
 import ReposNav from "./ReposNav"
 import ReposContainer from "./ReposContainer"
+import "./styles.css"
 
 const Hero = () => {
   const { user, error } = useContext(GithubContext)

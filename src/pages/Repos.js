@@ -7,7 +7,6 @@ const Repos = () => {
 
   return (
     <>
-      {" "}
       {repos &&
         repos.map((repo, index) => (
           <a key={index} href={repo.html_url} target="_blank" rel="noopener noreferrer" className="repos-wrap">

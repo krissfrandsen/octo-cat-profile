@@ -1,6 +1,7 @@
 import React from "react"
 import { Route } from "react-router-dom"
 import { Overview, Repos, Followers } from "../pages"
+import "./styles.css"
 
 const ReposContainer = () => {
   return (
