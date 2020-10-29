@@ -1,6 +1,6 @@
 # Octo-Cat Profile
 
-![demo](https://raw.githubusercontent.com/krissyness/octo-cat-profile/master/public/screenshot.png)
+![demo](https://github.com/krissfrandsen/octo-cat-profile/blob/main/public/screenshot.png?raw=true)
 
 Built with:
 
