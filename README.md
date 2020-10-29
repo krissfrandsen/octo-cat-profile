@@ -1,9 +1,9 @@
 # Octo-Cat Profile
 
-![OctoCatProfile](https://github.com/krissyness/octo-cat-profile/public/screenshot.png?raw=true)
+![demo](https://raw.githubusercontent.com/krissyness/octo-cat-profile/master/public/screenshot.png)
 
 Built with:
 
-### React
+- [React]
 
 # Getting Started with Create React App
