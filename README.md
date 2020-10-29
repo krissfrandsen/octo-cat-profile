@@ -1,3 +1,11 @@
+# Octo-Cat Profile
+
+![OctoCatProfile](https://github.com/krissyness/octo-cat-profile/public/screenshot.png?raw=true)
+
+Built with:
+
+### React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
